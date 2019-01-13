@@ -1,2 +1,2 @@
 # Pandas-Study
-self-study notes from pandas tutorial。
+self-study notes from pandas tutorial.
