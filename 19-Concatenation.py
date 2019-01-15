@@ -33,18 +33,3 @@ print(pd.concat([one,two],axis=1))
 ## Concatenating Using append
 print(one.append(two))
 print(one.append([two,one,two]))
-
-######################### Time Series #####################
-## Get Current Time
-print(pd.datetime.now())
-
-## Create a TimeStamp
-print(pd.Timestamp('2017-03-01'))
-print(pd.Timestamp(1587687255,unit='s'))
-
-## Create a Range of Time
-print(pd.date_range("11:00", "13:30", freq="30min").time)
-
-## Converting to Timestamps
-print(pd.to_datetime(pd.Series(['Jul 31, 2009','2010-01-10', None])))
-print(pd.to_datetime(['2005/11/23', '2010.12.31', None]))
